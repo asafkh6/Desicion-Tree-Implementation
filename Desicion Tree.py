@@ -7,9 +7,6 @@ import copy
 import sys
 
 
-# הריצה עלולה לקחת מספר דקות מועט :)
-
-
 def createData():
     file = open("OnlineNewsPopularity.data.txt")
     data1 = file.readlines()
